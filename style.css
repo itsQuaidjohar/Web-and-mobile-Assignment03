@@ -1,0 +1,523 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+  
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+    /*drop down nav bar   */
+
+        
+        
+        
+        marquee{
+            background-color: #316DC3;
+            width: 60%;
+            margin-left: 380px;
+            margin-top: 1%;
+            height: 2.8%;
+            
+        }
+        /* nav bar blue socail */
+   
+        
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            height: 40px;
+            position: absolute;
+            background-color: royalblue;
+        }
+        
+      
+    
+        .head-buttons{
+            float:right;
+            
+        }
+        .clear {
+            clear: both;
+        }
+        
+.social
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+   
+}
+.social a
+{
+  margin-left: 20px;
+ 
+}
+
+        .social span{
+            padding: 0 70px;
+            text-align: center ;
+            text-emphasis: none;
+            font-family: sans-serif;
+            font-size: 13px;
+            
+        } 
+     
+        /* this is for three button displayed on the .nav-topbar UK donar,Donate Now ,SMIT Results */ 
+         .nav-topbar button{
+            border-radius: 0px;
+            width: 76px;
+            color: #427900;
+            height: 25px;
+            position: relative;
+            align-items: center;
+            text-emphasis-color: #427900;;
+            background-color: white;
+            border-color: #427900;;
+            border-radius: 1px;
+            font-size: 10px;
+            font-weight: lighter;
+            font-family: sans-serif;
+            text-align: center;
+            
+            
+            
+        }
+                .nav-bar-container img{
+                    position: left;
+                    width: 13%;
+                    padding-right: 20%;
+                    padding: 10px;
+                     padding-left: 18%; 
+            
+                } 
+
+
+.navigation-block
+{
+    position: absolute;
+    width: 100%;
+    margin-left: 0;
+    margin:40px;
+    background-color:#EEF5F1; 
+    height:80px;
+    left:-100;
+    padding-right: 200px;
+    
+  
+}
+.sylani
+{
+    position: absolute;
+    left:120;
+    top:15
+}
+.navigation-bar
+{
+    padding-left: 900px;
+    margin: 10 auto;
+
+    
+
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.social a{
+    color:white;
+}
+ul li
+{
+    float:left;
+    margin-top: 20px;
+}
+ul li #navlink
+{
+
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+#navlink:hover
+{
+   color: white;
+   background-color: royalblue;
+   border-radius: 25px;
+   transition: .5s;
+
+}
+.dropdown #navlink:hover
+{
+   color:white;
+   background-color: royalblue;
+   border-radius: 25px;
+   transition: .5s;
+}
+ul li ul
+{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    border-radius: 25px;
+    transition: .5s;
+    
+}
+ul li ul li
+{
+    float:none;
+}
+
+ul li ul
+{
+    display: none;
+    
+}
+ul li:hover ul
+{
+    display: block;
+    
+}
+.dropdown ul li:hover ul
+{
+    display: block;
+    
+}
+.active
+{
+    background-color: royalblue;
+    color: white;
+    border-radius: 25px;
+}
+.moto
+{
+    position: absolute;
+    width: 100%;
+    font-size: 15px;   
+    color: rgb(245, 245, 245);
+    text-align: center;
+    margin-top: -23px;
+} 
+.show-in-line{
+
+    color: white;
+    text-align: center;
+}
+.header-buttons
+{
+    display: inline-block;
+    position: absolute;
+   
+    right: 20;
+    top:10
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    padding-top: 2pc;
+}
+ 
+.Introduction{
+    text-align: center;
+    color: black;
+    text-align: justify;
+    visibility: visible;
+    
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    padding-left: 30pc;
+    padding-right: 30pc;
+    padding-top: 4pc;
+    font-size: 16px;
+    padding-bottom: 7pc;
+} 
+
+.figures{
+    width: 100%;
+    height: 250px;
+    background-color: royalblue;
+}
+
+.fig-img{
+    image-resolution: 10px;
+    color: royalblue;
+    padding-top: 3.5pc;
+    margin-right: 30pc;
+    margin-left: 30pc;
+}
+
+.adv{
+
+    background-color:red;
+    padding-top: 7pc;
+    height: 38pc;
+    width: 120pc ;
+}
+
+
+.favicon {
+    padding-left: 58pc;
+    padding-right: 40pc;
+    width: 3pc;
+    
+}
+#example2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.services
+{
+    display: flex;
+
+    justify-content: center;
+}
+.row-1
+{
+    display: flex;
+    justify-content: center;
+    color: #316DC3;
+}
+.box
+{
+    width: 350px;
+    height: 190px;
+    background-color: #F8F8F8;
+    display: inline-block;
+    margin-left:200px;
+    -webkit-box-shadow: 5px 1px 25px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 1px 25px -5px rgba(0,0,0,0.75);
+    box-shadow: 5px 1px 25px -5px rgba(0,0,0,0.75);
+}
+.row-2
+{
+    display: flex;
+    justify-content: center;
+    margin-top:55px;
+    color: #316DC3;
+}
+.box-text
+{
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+.box-img
+{
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.img1{
+    
+    padding-left: 0pc;
+    padding-right: 0pc;
+    width: 16pc;
+}
+.imggallary{
+    padding-left: 15pc;
+    padding-right: 15pc;
+    padding-top: 1pc;
+    padding-bottom: 2pc;
+
+}
+
+
+.black-footer{
+    height: 28pc;
+    color: blanchedalmond;
+    background-color:rgb(34, 33, 33);
+    border-bottom: 1px solid #444;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.footer-para{
+    color: #bbb;
+    background-color: rgb(34, 33, 33);
+    padding-left: 13pc;
+    padding-top: 7pc;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+.Copyright{
+    color: #000;
+    background-color:  #316DC3;
+    height: 2pc;
+    
+}
+
+.Copyright p{
+    padding-left: 13pc;
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+
+}
+
+.footer-para2{
+    padding-left: 8pc;
+    padding-top: 3pc;
+    font-style:inherit;
+    color:  #bbb;
+    font-size: 1.2pc;
+    
+}
+
+
+
+#pad{
+    
+    padding-left: 10pc;
+    padding-right: 10pc;   /*yeh  ?han */
+}
+
+.footer-para3{
+    font-size: 1.2pc;
+    padding-left: 8pc;
+    padding-top: 3pc;
+    color:  #bbb;
+}
+
+.footer-social a{
+    color: white;
+    font-size: 2pc;
+    background-color: #316DC3;
+    /* border-radius: 100pc; */
+    border-bottom-left-radius: 50% ;
+    border-bottom-right-radius: 50% ;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Upcoming{
+    padding-left: 55pc;
+    color: blue;
+    background-color: white;
+    height: 40pc;
+    width: 40pc;
+ 
+}
+
+.Upcominghr{
+    padding-left: 24.5pc;
+    padding-top: 0.5pc;
+}
+
+.slide2{
+    background-color: white;
+    padding-right:pc;
+   
+}
+.mission
+{
+    color: blue;
+    position: absolute;
+    left: 90;
+}
+.mission h1
+{
+    position: relative;
+    left: -240;
+}
+.row-box-1
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 220px;
+}
+.row-box-2
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.mission-box
+{
+    width: 400px;
+    height: 110px;
+    background-color: whitesmoke;
+    margin-right: 90px;
+
+
+}
+.row-box-1 p
+{
+    color: royalblue;
+    position: relative;
+    top: 40;
+    left: 155;
+}
+.row-box-2 p
+{
+    color: royalblue;
+    position: relative;
+    top: 40;
+    left: 155;
+}
+.row-box-1 img
+{
+    position: relative;
+    width: 40px;
+    top:10;
+    left: 105;
+}
+.row-box-2 img
+{
+    position: relative;
+    top:10;
+    left: 105;
+    width: 40px;
+}
+
+.mq2{
+    width: 20pc;
+    height: 18pc;
+    background-color:white;
+    color:black;
+    margin-left: 25pc;
+}
+
+.upcomingh1{
+    padding-left: 24pc;
+    padding-top: -20pc;
+}
+
+.mission h1{
+    padding-left:10pc ;
+}
+.missionhr{
+    padding-left: 14pc;
+    padding-top: 0.3em;
+}
